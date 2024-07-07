@@ -10,7 +10,7 @@ body {
   background-color: #bd3144;
   position: fixed;
   width: 100vw;
-  height: 5.5vh;
+  height: 4rem;
   border-bottom: 2px solid rgb(30, 28, 32);
 }
 
@@ -23,27 +23,37 @@ nav {
 }
 nav ul {
   display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
   height: 100%;
   padding: 0;
   margin: 0;
+  min-width: 20rem;
 }
 nav li {
+  display: flex;
+
+  text-align: center;
+  align-items: center;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
 
 nav a {
-  display: block;
+  display: flex;
   text-align: center;
   align-items: center;
+  display: flex;
+  height: 100%;
   text-decoration: none;
-  padding: 20px 30px;
-
   color: whitesmoke;
   font-size: 1.5rem;
   font-weight: 600;
-  height: 100%;
+  padding: 0 2rem 0 2rem;
 }
+
 
 nav a:hover {
   background-color: rgb(20, 65, 65);
